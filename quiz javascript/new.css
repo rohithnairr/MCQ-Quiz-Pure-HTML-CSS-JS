@@ -1,0 +1,260 @@
+.mg {
+    margin-top: 4%;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ffffff !important;
+  }
+  * {
+    font-family: "Verdana", cursive, sans-serif;
+    
+  }
+  
+  .Quiz{
+    padding: 3%;
+    margin-top: 3%;
+    border-radius: 10px;
+  
+  }
+  .text1{
+    text-align: center;
+    color: #ffffff !important;
+    font-size:xx-large
+  }
+  .tab1{
+    background-color: rgb(0, 0, 0);
+    padding: 2%;
+    color: white !important;
+   
+  }
+  .tab2{
+    background-color: rgb(235, 235, 235);
+    padding: 2%;
+  
+  }
+  .prgbar{
+    margin-top: 30%;
+   
+   
+  }
+  .text2{
+    font-size: x-large;
+  }
+  .question_box{
+    padding-left: 3%;
+  }
+  .option_list{
+    margin-top: 5%;
+  }
+  .options{
+    margin-top: 3%;
+  }
+   
+  .Submit{
+    float: right !important;
+ 
+    
+   
+  }
+  
+  .Next{
+    float: left !important;
+    margin-left: 3%;
+    margin-top: 30%;
+  }
+  .btn2{
+    background-color: transparent !important;
+    border-color: rgb(48, 48, 48) !important;
+    border-radius: 10px ;
+    border-width: 2px !important;
+    color: black !important;
+  }
+  .br{
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10px;
+  }
+  .btn23{
+    background-color: transparent !important;
+    border:2px solid black !important
+  
+  }
+  .btn23:focus{
+    background-color: black !important;
+    
+  }
+  
+  .btn23:selected{
+    background-color: black !important;
+    
+  }
+  .pic {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+
+ .choice1{
+     border-radius: 10px !important ;
+     margin-top: 4%;
+     font-size: large;
+     padding: 4px 10px;
+ }
+ .questionSection{
+     margin-top: 5%;
+ }
+
+ #progressBar {
+    width: 20rem;
+    height: 2rem;
+    border: 0.2rem solid #ffffff;
+    margin-top: 1.5rem;
+  }
+  
+  #progressBarFull {
+    height: 1.5rem;
+    background-color: #173fc2;
+    width: 0%;
+  
+  }
+  
+  #loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #000000;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+    text-align: center !important;
+    margin: auto;
+    display: block;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  
+  }
+  
+  .choice-prefix {
+    padding: 1.5rem 1.5rem;
+    background-color: #004285;
+    color: white;
+    border-radius: 100px;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  
+  .choice-text {
+    padding: 1.5rem;
+    width: 100%;
+  }
+  
+  .correct {
+    background-color: #28a745;
+  }
+  
+  .incorrect {
+    background-color: #dc3545;
+  }
+  .hidden {
+    display: none !important; 
+  }
+  .btn {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #56a5eb;
+    background-color: white;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  
+  /* FORMS */
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  .ms{
+      border-radius: 10px;
+  }
+  .pic {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .text{
+      text-align: center !important;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  .hud-main-text {
+    text-align: center;
+    color: #000000;
+  }
